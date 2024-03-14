@@ -1,0 +1,135 @@
+// CUSTOM SCSS CODE HERE 
+
+$blue : rgb(224, 243, 243);
+$bg-color:#0C1C3B;
+$input-bg:#1B335E;
+$green : #24487E;
+
+
+
+//COLOR CUSTOMISATION
+$primary: $blue;
+$warning:#FFC120;
+$secondary: $bg-color;
+$success:$green;
+// $info:$cyan !default;
+
+// CUSTOMISE INPUT FIELD
+$input-bg:$input-bg;
+$input-placeholder-color: #515d74;
+$input-plaintext-color: #ddd;
+
+// ACCORDIAN 
+$border-radius: 1rem;
+$border-width:1px;
+
+
+//CUSTOMISE ACCORDIAN <======================================================================================
+ $accordion-padding-y:                     1.90rem;
+ $accordion-padding-x:                     1.25rem;
+// $accordion-color:                         $body-color;
+// $accordion-bg:                            $body-bg;
+ $accordion-border-width:                  $border-width;
+// $accordion-border-color:                  rgba($black, .125);
+ $accordion-border-radius:$border-radius;
+ $accordion-inner-border-radius:           subtract($accordion-border-radius, $accordion-border-width);
+
+// $accordion-body-padding-y:                $accordion-padding-y;
+// $accordion-body-padding-x:                $accordion-padding-x;
+
+// $accordion-button-padding-y:              $accordion-padding-y;
+// $accordion-button-padding-x:              $accordion-padding-x;
+// $accordion-button-color:                  $accordion-color;
+// $accordion-button-bg:                     $accordion-bg;
+// $accordion-transition:                    $btn-transition, border-radius .15s ease;
+// $accordion-button-active-bg:              tint-color($component-active-bg, 90%);
+// $accordion-button-active-color:           shade-color($primary, 10%);
+
+// $accordion-button-focus-border-color:     $input-focus-border-color;
+ $accordion-button-focus-box-shadow:none;
+
+// $accordion-icon-width:                    1.25rem;
+// $accordion-icon-color:                    $accordion-color;
+// $accordion-icon-active-color:             $accordion-button-active-color;
+// $accordion-icon-transition:               transform .2s ease-in-out;
+// $accordion-icon-transform:                rotate(-180deg);
+
+// $accordion-button-icon:         url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-color}'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+// $accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-active-color}'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+
+
+
+
+
+// LIST GROUP HERE <==============================================================================================================
+// $list-group-color:                  $gray-900;
+ $list-group-bg:     none;
+// $list-group-border-color:           rgba($black, .125);
+// $list-group-border-width:           $border-width;
+// $list-group-border-radius:          $border-radius;
+
+// $list-group-item-padding-y:         $spacer * .5;
+// $list-group-item-padding-x:         $spacer;
+// $list-group-item-bg-scale:          -80%;
+// $list-group-item-color-scale:       40%;
+
+// $list-group-hover-bg:               $gray-100;
+// $list-group-active-color:           $component-active-color;
+// $list-group-active-bg:              $component-active-bg;
+// $list-group-active-border-color:    $list-group-active-bg;
+
+// $list-group-disabled-color:         $gray-600;
+// $list-group-disabled-bg:            $list-group-bg;
+
+// $list-group-action-color:           $gray-700;
+// $list-group-action-hover-color:     $list-group-action-color;
+
+// $list-group-action-active-color:    $body-color;
+// $list-group-action-active-bg:       $gray-200;
+
+
+
+//NAV TOBAR TOGGOLER <==========================================================================================================================================================================================
+// $navbar-padding-y:                  $spacer * .5;
+// $navbar-padding-x:                  null;
+
+// $navbar-nav-link-padding-x:         .5rem;
+
+// $navbar-brand-font-size:            $font-size-lg;
+// Compute the navbar-brand padding-y so the navbar-brand will have the same height as navbar-text and nav-link
+// $nav-link-height:                   $font-size-base * $line-height-base + $nav-link-padding-y * 2;
+// $navbar-brand-height:               $navbar-brand-font-size * $line-height-base;
+// $navbar-brand-padding-y:            ($nav-link-height - $navbar-brand-height) * .5;
+// $navbar-brand-margin-end:           1rem;
+
+// $navbar-toggler-padding-y:          .25rem;
+// $navbar-toggler-padding-x:          .75rem;
+// $navbar-toggler-font-size:          $font-size-lg;
+ $navbar-toggler-border-radius:none;
+ $navbar-toggler-focus-width:none;
+$navbar-toggler-transition: none;
+
+
+// $navbar-dark-color:                 rgba($white, .55);
+ //$navbar-dark-hover-color:$blue;
+ //$navbar-dark-active-color: $blue;
+// $navbar-dark-disabled-color:        rgba($white, .25);
+// $navbar-dark-toggler-icon-bg:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+// $navbar-dark-toggler-border-color:  rgba($white, .1);
+
+// $navbar-light-color:                rgba($black, .55);
+//  $navbar-light-hover-color: none;     /* rgba($black, .7);*/
+ $navbar-light-active-color:red;
+// $navbar-light-disabled-color:       rgba($black, .3);
+$navbar-light-toggler-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$blue}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+$navbar-light-toggler-border-color:none;
+
+// $navbar-light-brand-color:                $navbar-light-active-color;
+// $navbar-light-brand-hover-color:          $navbar-light-active-color;
+// $navbar-dark-brand-color:                 $navbar-dark-active-color;
+// $navbar-dark-brand-hover-color:           $navbar-dark-active-color;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
